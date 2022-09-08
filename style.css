@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    max-width: 784px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    background: #FFFFFF;
+    border: 1px solid #DCE2E8;
+    /* padding: 48px; */
+}
+
+.section {
+    margin: 48px 48px 0px;
+}
+
+.big-section {
+    margin: 48px 48px 0px 41px;
+}
+
+.yellow {
+    background-color: #FFDD2D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333333;
+    padding: 3px 10px;
+}
+
+.heading {
+    margin-top: 3%;
+    margin-bottom: 8%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    font-feature-settings: 'liga' off;
+    color: #111111;
+}
+
+.mini-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #333333;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.secondary-text {
+    color: #808C9E;
+}
+
+.paragraph {
+    color: #333333;
+    margin-top: 3%;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.hashtags{
+    margin-top: 8px;
+}
+
+.hashtag {
+    text-decoration: none;
+    color: #808C9E;
+    background-color: #F1F3F5;
+    padding: 3px;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .task-list {
+    list-style: none;
+    background: url(assets/svg/backhand-pointing-right.svg) no-repeat 0 4px;
+    padding-left: 28px;
+} */
+
+.task-list-img {
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+
+.heading-link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arrow {
+    margin: 0 8px;
+}
+
+.link-mini-heading {
+    color: #597DB3;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #808C9E;
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #597DB3;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.footer-bold-text {
+    font-weight: 700;
+}
+
+.author {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 48px;
+}
+
+.author-profile {
+    margin-right: 16px;
+}
+
+.more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 50px;
+    padding: 0px 47px;
+}
+
+.another-heading {
+    display: none;
+}
+
+.another-section {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    main {
+        max-width: 608px;
+        margin: 80px;
+    }
+
+    .another-heading {
+        display: block;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .another-section {
+        display: block;
+    }
+
+    .cloud-call-center {
+        display: none;
+    }
+
+    .desktop-heading {
+        display: none;
+    }
+
+    .big-section {
+        display: none;
+    }
+
+    .section{
+        margin: 48px 47px 0px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .heading {
+        margin-bottom: 3%;
+    }
+
+    .mini-heading {
+        font-size: 21px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        max-width: 288px;
+        margin: 80px 16px;
+    }
+
+    .caption {
+        flex-wrap: wrap;
+    }
+
+    .hashtags {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hashtag {
+        margin-bottom: 12px;
+    }
+
+    .cloud-call-center {
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .section{
+        margin: 36px 24px 0px;
+    }
+
+    .caption-image {
+        margin: 12px 0px;
+    }
+
+    .author {
+        margin: 28px 24px;
+    }
+
+    .more {
+        margin-top: 36px;
+        padding-left: 24px;
+        padding-right: 22px;
+    }
+
+    .footer-link {
+        margin-top: 8px;
+    }
+}
